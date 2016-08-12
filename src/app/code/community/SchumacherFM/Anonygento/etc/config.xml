@@ -42,7 +42,7 @@
     <default>
         <dev>
             <anonygento>
-                <locale>de_DE</locale>
+                <locale>en_US</locale>
             </anonygento>
         </dev>
     </default>
@@ -370,6 +370,7 @@
                         <customer_id/>
                         <entity_id/>
                         <quote_id/>
+                        <increment_id/>
                         <shipping_address_id/>
                         <billing_address_id/>
                     </system>
@@ -412,6 +413,7 @@
                     <system>
                         <entity_id/>
                         <customer_id/>
+                        <increment_id/>
                     </system>
                 </mapping>
             </orderGrid>
@@ -637,6 +639,7 @@
                     <system>
                         <entity_id/>
                         <order_id/>
+                        <increment_id/>
                         <shipping_address_id/>
                         <billing_address_id/>
                     </system>
@@ -670,6 +673,9 @@
                 <mapping>
                     <update>creditmemo</update>
                     <!--you can add here additional attributes/columns-->
+                    <system>
+                        <increment_id/>
+                    </system>
                 </mapping>
             </invoice>
             <invoiceComment>
@@ -688,6 +694,9 @@
                 <mapping>
                     <update>creditmemo</update>
                     <!--you can add here additional attributes/columns-->
+                    <system>
+                        <increment_id/>
+                    </system>
                 </mapping>
             </shipment>
             <shipmentComment>
